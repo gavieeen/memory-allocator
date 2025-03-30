@@ -78,7 +78,7 @@ Higher scores indicated better performance relative to glibc.
 ![image](https://github.com/user-attachments/assets/d8cecb3e-7412-40cb-9b54-496faae80c17)
 
 ### My Memory Allocator ✨  
-![image](https://github.com/user-attachments/assets/e9344dcc-3512-498e-acf4-17b8901f6097)
+![image](https://github.com/user-attachments/assets/49e1f8f6-d050-412d-9a0b-9217b7b4a4af)
 
 ### Performance Comparison:  
 | Metric                 | My Allocator       | glibc             | Improvement |

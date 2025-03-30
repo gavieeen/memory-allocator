@@ -184,8 +184,9 @@ void free(void *ptr) {
         idx -= 1;
         allocated = 2;
         return;
-    } else if (allocated == 2) {
-        if (idx-- % M == 0) sbrk(-1 * M * (sizeof(int))); // Remove memory
+    } 
+    else if (allocated == 2) {
+        if (idx-- % M == 0) sbrk((intptr_t)(-1 * (long)M * (long)sizeof(int))); // Remove memory
         return;
     }
 
